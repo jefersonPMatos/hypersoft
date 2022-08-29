@@ -8,7 +8,7 @@ export const Container = styled.div`
 
 export const Nav = styled.nav`
   top: 0.1px;
-  position: fixed;
+  position: absolute;
   border-radius: 4px;
   z-index: 99;
   transition: all 0.3s ease;

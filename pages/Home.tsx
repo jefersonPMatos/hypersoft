@@ -5,12 +5,14 @@ import { Box } from "../components/Box";
 import { Button } from "../components/Button";
 import { Navbar } from "../components/Navbar";
 
+import profile from "../images/photo.png";
+
 import Ball from "../images/ball.svg";
 import Be from "../images/be.svg";
 import Facebook from "../images/facebook.svg";
 import Twitter from "../images/twitter.svg";
 
-export default function Home() {
+export const Home = () => {
   return (
     <>
       <Head>
@@ -27,7 +29,9 @@ export default function Home() {
       <S.Container>
         <Box h="100vh" w="40vw" bg="#7D00FF" />
         <Box w="60vw" />
-        <S.Photo />
+        <S.Photo>
+          <S.Img src={profile} width={500} height={600} />
+        </S.Photo>
         <S.Wrapper>
           <S.Personal>
             <h1>
@@ -67,4 +71,4 @@ export default function Home() {
       </S.Container>
     </>
   );
-}
+};

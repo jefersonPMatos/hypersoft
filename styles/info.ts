@@ -60,6 +60,7 @@ export const Data = styled.div`
 
   p {
     font-size: 12px;
+    width: 100px;
   }
 
   span {

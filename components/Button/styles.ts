@@ -11,7 +11,7 @@ export const Container = styled.button<{
   align-items: center;
   font-family: "Inter";
   cursor: pointer;
-  font-size: ${(props) => props.fs || "16px"};
+  font-size: ${(props) => props.fs || "14px"};
   border: none;
   border-radius: 5px;
   padding: 0px, 32px, 0px, 32px;

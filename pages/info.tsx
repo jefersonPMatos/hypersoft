@@ -2,6 +2,10 @@ import * as S from "../styles/info";
 import PC from "../images/pc.png";
 import { Button } from "../components/Button";
 
+import Arrow from "../images/arrow.png";
+import Image from "next/image";
+import { Box } from "../components/Box";
+
 export const Info = () => {
   return (
     <S.Container>
@@ -32,7 +36,9 @@ export const Info = () => {
           </span>
         </S.Data>
         <S.ActionButtons>
-          <Button primary>SAY HI</Button>
+          <Button primary>
+            SAY HI <Box w="10px" /> <Image src={Arrow} />
+          </Button>
         </S.ActionButtons>
       </S.InfoWrapper>
     </S.Container>

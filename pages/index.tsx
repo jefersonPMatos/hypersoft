@@ -1,13 +1,19 @@
-import { Main, Head, Html } from "next/document";
-
-import Home from "./Home";
+import { Home } from "./home";
 import { Info } from "./info";
+import { Services } from "./services";
+import { Work } from "./work";
+import { Contact } from "./contact";
+import { Footer } from "./footer";
 
 export default function Index() {
   return (
     <>
-      <Home />;
+      <Home />
       <Info />
+      <Services />
+      <Work />
+      <Contact />
+      <Footer />
     </>
   );
 }

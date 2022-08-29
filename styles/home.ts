@@ -1,12 +1,10 @@
 import styled from "styled-components";
 import Image from "next/image";
-import profile from "../images/photo.png";
 
 export const Container = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
-  height: 100vh;
 `;
 
 export const Wrapper = styled.div`
@@ -39,14 +37,10 @@ export const Description = styled.div`
   color: #a5a5a5;
 `;
 
-export const Photo = styled.div<{ profile: any }>`
+export const Photo = styled.div`
   position: absolute;
-  width: 650px;
-  height: 85vh;
   left: 730px;
-  bottom: 2px;
-  border: 1px solid red;
-  background-image: url(${profile});
+  top: 146px;
 `;
 
 export const ActionButtons = styled.div`
