@@ -32,6 +32,7 @@ export const ListItem = styled.li`
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
+  cursor: pointer;
 
   &:hover {
     transition: all ease 0.3s;

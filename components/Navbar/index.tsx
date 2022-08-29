@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "react-scroll";
 import * as S from "./styles";
 
 export const Navbar = () => {
@@ -7,24 +7,23 @@ export const Navbar = () => {
       <S.Nav>
         <S.List>
           <S.ListItem>
-            <Link href="/about">
-              <a>about</a>
-            </Link>
-          </S.ListItem>
-
-          <S.ListItem>
-            <Link href="/services">
-              <a>Services</a>
+            <Link to="1" smooth={true}>
+              about
             </Link>
           </S.ListItem>
           <S.ListItem>
-            <Link href="/works">
-              <a>works</a>
+            <Link to="2" smooth={true}>
+              Services
             </Link>
           </S.ListItem>
           <S.ListItem>
-            <Link href="/contact">
-              <a>contact</a>
+            <Link to="3" smooth={true}>
+              works
+            </Link>
+          </S.ListItem>
+          <S.ListItem>
+            <Link to="4" smooth={true}>
+              contact
             </Link>
           </S.ListItem>
         </S.List>

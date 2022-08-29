@@ -26,7 +26,7 @@ export const Home = () => {
 
       <Navbar />
 
-      <S.Container>
+      <S.Container id="1">
         <Box h="100vh" w="40vw" bg="#7D00FF" />
         <Box w="60vw" />
         <S.Photo>

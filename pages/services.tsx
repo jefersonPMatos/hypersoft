@@ -7,7 +7,7 @@ import Code from "../images/code.png";
 
 export const Services = () => {
   return (
-    <S.Container>
+    <S.Container id="2">
       <Box h="100px" />
       <h1>My Service</h1>
       <hr />
