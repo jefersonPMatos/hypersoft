@@ -1,9 +1,9 @@
-import { Home } from "./home";
-import { Info } from "./info";
-import { Services } from "./services";
-import { Work } from "./work";
-import { Contact } from "./contact";
-import { Footer } from "./footer";
+import { Home } from "./_home";
+import { Info } from "./_info";
+import { Services } from "./_services";
+import { Work } from "./_work";
+import { Contact } from "./_contact";
+import { Footer } from "./_footer";
 
 export default function Index() {
   return (
