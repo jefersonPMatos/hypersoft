@@ -14,7 +14,7 @@ export const Banner = ({ image, title, link, linkText }: Props) => {
   return (
     <S.Container>
       <S.ImageWrapper>
-        <Image src={image} />
+        <Image src={image} alt="" />
       </S.ImageWrapper>
       <span>
         <S.Title>{title}</S.Title>
