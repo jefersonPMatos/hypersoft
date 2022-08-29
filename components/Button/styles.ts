@@ -1,10 +1,10 @@
 import styled, { css } from "styled-components";
 
 export const Container = styled.button<{
-  primary: boolean;
-  fs: string;
-  w: string;
-  h: string;
+  primary?: boolean;
+  fs?: string;
+  w?: string;
+  h?: string;
 }>`
   display: flex;
   justify-content: center;

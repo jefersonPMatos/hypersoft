@@ -3,7 +3,7 @@ import * as S from "./styles";
 type Props = {
   children?: any;
   primary?: boolean;
-  fs?: string;
+  fs?: any;
   h?: string;
   w?: string;
 };
