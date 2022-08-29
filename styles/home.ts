@@ -17,7 +17,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   height: 100vh;
   width: 758px;
-  left: 280px;
+  left: 210px;
 `;
 
 export const Personal = styled.div`
@@ -36,6 +36,7 @@ export const Description = styled.div`
   font-weight: 400;
   font-size: 16px;
   flex-wrap: wrap;
+  color: #a5a5a5;
 `;
 
 export const Photo = styled.div<{ profile: any }>`

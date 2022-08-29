@@ -5,26 +5,36 @@ import { Button } from "../components/Button";
 export const Info = () => {
   return (
     <S.Container>
-      <S.Img src={PC} />
-      <S.Title>
-        Software Engineer and Infrastructure specialist based in Brazil.
-      </S.Title>
-      <S.Description>
-        Morbi quam velit, euismod in imperdiet vitae, elementum et elit. Nunc
-        finibus, felis sit amet sollicitudin sollicitudin, nisi magna feugiat
-        enim, in maximus urna enim ac tortor. Nunc in volutpat ipsum, molestie
-        commodo odio. Quisque auctor nisi mi. Aenean venenatis sapien et
-        interdum interdum.
-      </S.Description>
-      <S.Data>
-        <h1>17+</h1>
-        <p>years of experience</p>
-        <h1>325+</h1>
-        <p>Completed Projects</p>
-      </S.Data>
-      <S.ActionButtons>
-        <Button>SAY HI</Button>
-      </S.ActionButtons>
+      <S.ImgWrapper>
+        <S.Img src={PC} width={400} height={400} />
+      </S.ImgWrapper>
+      <S.InfoWrapper>
+        <S.Title>
+          <h1>
+            Software Engineer and Infrastructure specialist based in Brazil.
+          </h1>
+        </S.Title>
+        <S.Description>
+          Morbi quam velit, euismod in imperdiet vitae, elementum et elit. Nunc
+          finibus, felis sit amet sollicitudin sollicitudin, nisi magna feugiat
+          enim, in maximus urna enim ac tortor. Nunc in volutpat ipsum, molestie
+          commodo odio. Quisque auctor nisi mi. Aenean venenatis sapien et
+          interdum interdum.
+        </S.Description>
+        <S.Data>
+          <span>
+            <h1>17+</h1>
+            <p>years of experience</p>
+          </span>
+          <span>
+            <h1>325+</h1>
+            <p>Completed Projects</p>
+          </span>
+        </S.Data>
+        <S.ActionButtons>
+          <Button primary>SAY HI</Button>
+        </S.ActionButtons>
+      </S.InfoWrapper>
     </S.Container>
   );
 };
