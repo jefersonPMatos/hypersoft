@@ -5,7 +5,7 @@ import * as S from "../styles/footer";
 import Hypesoft from "../images/hypersoft.png";
 import { Box } from "../components/Box";
 
-export const Footer = () => {
+export default function Footer() {
   return (
     <S.Container>
       <Box h="100px" />
@@ -14,4 +14,4 @@ export const Footer = () => {
       <Box h="100px" />
     </S.Container>
   );
-};
+}

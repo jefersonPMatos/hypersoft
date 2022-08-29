@@ -6,7 +6,7 @@ import Arrow from "../images/arrow.png";
 import Image from "next/image";
 import { Box } from "../components/Box";
 
-export const Info = () => {
+export default function Info() {
   return (
     <S.Container>
       <S.ImgWrapper>
@@ -43,4 +43,4 @@ export const Info = () => {
       </S.InfoWrapper>
     </S.Container>
   );
-};
+}

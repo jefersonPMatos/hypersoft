@@ -15,7 +15,7 @@ import Phone from "../images/phone.png";
 
 import { Button } from "../components/Button";
 
-export const Contact = () => {
+export default function Contact() {
   const [commentId, setCommentId] = useState(1);
 
   const commentDisplay = () => {
@@ -163,4 +163,4 @@ export const Contact = () => {
       <Box h="100px" />
     </S.Container>
   );
-};
+}

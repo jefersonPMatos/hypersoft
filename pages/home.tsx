@@ -11,7 +11,7 @@ import Be from "../images/be.svg";
 import Facebook from "../images/facebook.svg";
 import Twitter from "../images/twitter.svg";
 
-export const Home = () => {
+export default function Home() {
   return (
     <>
       <Navbar />
@@ -62,4 +62,4 @@ export const Home = () => {
       </S.Container>
     </>
   );
-};
+}

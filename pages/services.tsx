@@ -5,7 +5,7 @@ import { Card } from "../components/Card";
 
 import Code from "../images/code.png";
 
-export const Services = () => {
+export default function Services() {
   return (
     <S.Container id="2">
       <Box h="100px" />
@@ -35,4 +35,4 @@ export const Services = () => {
       <Box h="100px" />
     </S.Container>
   );
-};
+}

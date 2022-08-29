@@ -16,7 +16,7 @@ import Hypesoft from "../images/hypesoft.png";
 
 import { Box } from "../components/Box";
 
-export const Work = () => {
+export default function Work() {
   return (
     <S.Container id="3">
       <Box h="100px" />
@@ -84,4 +84,4 @@ export const Work = () => {
       <Box h="100px" />
     </S.Container>
   );
-};
+}
