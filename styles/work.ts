@@ -24,6 +24,15 @@ export const Container = styled.div`
   }
 `;
 
+export const BannerWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  flex-wrap: wrap;
+  gap: 20px;
+`;
+
 export const WorkInfo = styled.div`
   display: flex;
 `;
@@ -44,17 +53,16 @@ export const Companys = styled.div`
 export const ImageWrapper = styled.div`
   border-radius: 5px;
   padding: 20px;
-  background-color: #000;
+  background-color: #fff;
 `;
 
-export const Hireme = styled.div`
+export const HireMe = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-direction: column;
   gap: 20px;
-  border: 1px solid red;
   width: 1150px;
   height: 300px;
 

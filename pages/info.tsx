@@ -27,11 +27,11 @@ export const Info = () => {
         </S.Description>
         <S.Data>
           <span>
-            <h1>17+</h1>
+            <h1>1+</h1>
             <p>years of experience</p>
           </span>
           <span>
-            <h1>325+</h1>
+            <h1>20+</h1>
             <p>Completed Projects</p>
           </span>
         </S.Data>

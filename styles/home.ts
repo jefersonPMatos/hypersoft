@@ -35,6 +35,7 @@ export const Description = styled.div`
   font-size: 16px;
   flex-wrap: wrap;
   color: #a5a5a5;
+  margin-bottom: 20px;
 `;
 
 export const Photo = styled.div`

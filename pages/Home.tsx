@@ -40,9 +40,10 @@ export const Home = () => {
           </S.Personal>
           <S.Description>
             <p>
-              Product Designer, UI/UX Designer, and developer based in Brazil.
-              Over the past 17 years, as an art director and designer, I’ve
-              worked with big companies and up-and-coming startups.
+              My name is Jeferson and I enjoy creating things that live on the
+              internet. My interest in web development started when I decided to
+              try editing custom Blogspot themes — turns out hacking together a
+              custom reblog button taught me a lot about HTML & CSS!
             </p>
           </S.Description>
           <S.ActionButtons>
@@ -57,7 +58,7 @@ export const Home = () => {
                 <S.Img src={Ball} width={15} height={15} />
               </Button>
               <Button w="35px" h="35px">
-                <S.Img src={Be} width={15} height={15} fill="#000" />
+                <S.Img src={Be} width={15} height={15} />
               </Button>
               <Button w="35px" h="35px">
                 <S.Img src={Facebook} width={15} height={15} />

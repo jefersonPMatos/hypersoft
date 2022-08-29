@@ -10,6 +10,7 @@ export const Container = styled.div`
   background-color: #fff;
   color: #000;
   border-radius: 5px;
+  margin-bottom: 20px;
 
   span {
     background-color: #fff;
@@ -30,13 +31,13 @@ export const Title = styled.div`
   font-family: "Inter";
   font-size: 16px;
   font-weight: 400;
+  margin-top: 15px;
 `;
 
 export const Link = styled.a`
   padding: 0px 20px;
   display: flex;
   width: 200px;
-  margin-bottom: 10px;
 
   span {
     display: none;
