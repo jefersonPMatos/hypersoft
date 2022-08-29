@@ -1,4 +1,3 @@
-import { type } from "os";
 import * as S from "./styles";
 
 type Props = {

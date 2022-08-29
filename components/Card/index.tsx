@@ -17,7 +17,7 @@ export const Card = ({ icon, title, link, linkText }: Props) => {
   return (
     <S.Container>
       <S.Icon>
-        <Image src={icon} width={30} height={30} />
+        <Image src={icon} width={30} height={30} alt="" />
       </S.Icon>
       <Box h="50px" />
 
@@ -26,7 +26,7 @@ export const Card = ({ icon, title, link, linkText }: Props) => {
       <S.ActionButton>
         <S.Link href={link}>
           <span>{linkText}</span>
-          <Image src={Arrow} />
+          <Image src={Arrow} alt="" />
         </S.Link>
       </S.ActionButton>
     </S.Container>

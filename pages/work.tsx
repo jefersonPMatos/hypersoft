@@ -70,13 +70,13 @@ export const Work = () => {
         </S.Info>
         <S.Companys>
           <S.ImageWrapper>
-            <Image src={Hypesoft} width={110} height={35} />
+            <Image src={Hypesoft} width={110} height={35} alt="" />
           </S.ImageWrapper>
         </S.Companys>
       </S.WorkInfo>
       <S.HireMe>
         <p>
-          Got a project in mind? Let's make something awesome{" "}
+          Got a project in mind? Let's make something awesome
           <span>together</span>.
         </p>
         <Button primary>Hire Me </Button>

@@ -101,12 +101,12 @@ export const Contact = () => {
         <S.Comment>
           <S.IconWrapper>
             <S.Rating>
-              <Image src={Star} width={20} height={20} />
+              <Image src={Star} width={20} height={20} alt="" />
               <p>5.0 Star Rating</p>
             </S.Rating>
             <span>
-              <Image src={Aspa} width={40.96} height={75.1} />
-              <Image src={Aspa} width={40.96} height={75.1} />
+              <Image src={Aspa} width={40.96} height={75.1} alt="" />
+              <Image src={Aspa} width={40.96} height={75.1} alt="" />
             </span>
           </S.IconWrapper>
           <S.Text>{commentDisplay()}</S.Text>
@@ -131,7 +131,7 @@ export const Contact = () => {
             <Button primary w="250px">
               SEND MESSAGE
               <Box w="20px" />
-              <Image src={Send} width={20} height={20} />
+              <Image src={Send} width={20} height={20} alt="" />
             </Button>
           </S.Button>
         </S.Form>
@@ -139,23 +139,23 @@ export const Contact = () => {
           <h1>Get In Touch.</h1>
           <S.ContactInfo>
             <S.Row>
-              <Image src={Map} width={60} height={60} />
+              <Image src={Map} width={60} height={60} alt="" />
               <p>Campina Grande - PB</p>
             </S.Row>
             <S.Row>
-              <Image src={Mail} width={60} height={60} />
+              <Image src={Mail} width={60} height={60} alt="" />
               <p>jefersonpmatos@outlook.com</p>
             </S.Row>
             <S.Row>
-              <Image src={Phone} width={60} height={60} />
+              <Image src={Phone} width={60} height={60} alt="" />
               <p>+55 83 981668392</p>
             </S.Row>
             <S.Row>
-              <Image src={Phone} width={30} height={30} />
-              <Image src={Phone} width={30} height={30} />
-              <Image src={Phone} width={30} height={30} />
-              <Image src={Phone} width={30} height={30} />
-              <Image src={Phone} width={30} height={30} />
+              <Image src={Phone} width={30} height={30} alt="" />
+              <Image src={Phone} width={30} height={30} alt="" />
+              <Image src={Phone} width={30} height={30} alt="" />
+              <Image src={Phone} width={30} height={30} alt="" />
+              <Image src={Phone} width={30} height={30} alt="" />
             </S.Row>
           </S.ContactInfo>
         </S.Adress>

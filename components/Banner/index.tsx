@@ -20,7 +20,7 @@ export const Banner = ({ image, title, link, linkText }: Props) => {
         <S.Title>{title}</S.Title>
         <S.Link href={link}>
           <span>{linkText}</span>
-          <Image src={Arrow} />
+          <Image src={Arrow} alt="" />
         </S.Link>
       </span>
     </S.Container>

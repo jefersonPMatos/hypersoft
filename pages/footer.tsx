@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <S.Container>
       <Box h="100px" />
-      <Image src={Hypesoft} width={263} height={59} />
+      <Image src={Hypesoft} width={263} height={59} alt="" />
       <p>Made with ❤️ by Jeff P. Matos</p>
       <Box h="100px" />
     </S.Container>

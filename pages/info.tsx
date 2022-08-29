@@ -10,7 +10,7 @@ export const Info = () => {
   return (
     <S.Container>
       <S.ImgWrapper>
-        <S.Img src={PC} width={400} height={400} />
+        <S.Img src={PC} width={400} height={400} alt="" />
       </S.ImgWrapper>
       <S.InfoWrapper>
         <S.Title>
@@ -37,7 +37,7 @@ export const Info = () => {
         </S.Data>
         <S.ActionButtons>
           <Button primary>
-            SAY HI <Box w="10px" /> <Image src={Arrow} />
+            SAY HI <Box w="10px" /> <Image src={Arrow} alt="" />
           </Button>
         </S.ActionButtons>
       </S.InfoWrapper>

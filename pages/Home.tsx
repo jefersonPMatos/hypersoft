@@ -20,7 +20,7 @@ export const Home = () => {
         <Box h="100vh" w="40vw" bg="#7D00FF" />
         <Box w="60vw" />
         <S.Photo>
-          <S.Img src={profile} width={500} height={600} />
+          <S.Img src={profile} width={500} height={600} alt="" />
         </S.Photo>
         <S.Wrapper>
           <S.Personal>
@@ -45,16 +45,16 @@ export const Home = () => {
             Follow me on:
             <span>
               <Button w="35px" h="35px">
-                <S.Img src={Ball} width={15} height={15} />
+                <S.Img src={Ball} width={15} height={15} alt="" />
               </Button>
               <Button w="35px" h="35px">
-                <S.Img src={Be} width={15} height={15} />
+                <S.Img src={Be} width={15} height={15} alt="" />
               </Button>
               <Button w="35px" h="35px">
-                <S.Img src={Facebook} width={15} height={15} />
+                <S.Img src={Facebook} width={15} height={15} alt="" />
               </Button>
               <Button w="35px" h="35px">
-                <S.Img src={Twitter} width={15} height={15} />
+                <S.Img src={Twitter} width={15} height={15} alt="" />
               </Button>
             </span>
           </S.SocialMedia>
