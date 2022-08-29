@@ -1,9 +1,9 @@
-import Home from "./home";
-import Info from "./info";
-import Services from "./services";
-import Work from "./work";
-import Contact from "./contact";
-import Footer from "./footer";
+import Home from "./Home";
+import Info from "./Info";
+import Services from "./Services";
+import Work from "./Work";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 export default function Index() {
   return (

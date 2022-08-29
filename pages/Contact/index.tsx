@@ -2,18 +2,18 @@ import { useState } from "react";
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
 
-import * as S from "../styles/contact";
+import * as S from "./styles";
 
-import { Box } from "../components/Box";
+import { Box } from "../../components/Box";
 
-import Aspa from "../images/aspa.png";
-import Star from "../images/star.png";
-import Send from "../images/send.png";
-import Map from "../images/map.png";
-import Mail from "../images/mail.png";
-import Phone from "../images/phone.png";
+import Aspa from "../../images/aspa.png";
+import Star from "../../images/star.png";
+import Send from "../../images/send.png";
+import Map from "../../images/map.png";
+import Mail from "../../images/mail.png";
+import Phone from "../../images/phone.png";
 
-import { Button } from "../components/Button";
+import { Button } from "../../components/Button";
 
 export default function Contact() {
   const [commentId, setCommentId] = useState(1);

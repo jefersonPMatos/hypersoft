@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-import * as S from "../styles/footer";
+import * as S from "./styles";
 
-import Hypesoft from "../images/hypersoft.png";
-import { Box } from "../components/Box";
+import Hypesoft from "../../images/hypersoft.png";
+import { Box } from "../../components/Box";
 
 export default function Footer() {
   return (

@@ -1,20 +1,20 @@
 import Image from "next/image";
 
-import * as S from "../styles/work";
+import * as S from "./styles";
 
-import { Banner } from "../components/Banner";
-import { Button } from "../components/Button";
+import { Banner } from "../../components/Banner";
+import { Button } from "../../components/Button";
 
-import Project1 from "../images/project1.png";
-import Project2 from "../images/project2.png";
-import Project3 from "../images/project3.png";
-import Project4 from "../images/project4.png";
-import Project5 from "../images/project5.png";
-import Project6 from "../images/project6.png";
+import Project1 from "../../images/project1.png";
+import Project2 from "../../images/project2.png";
+import Project3 from "../../images/project3.png";
+import Project4 from "../../images/project4.png";
+import Project5 from "../../images/project5.png";
+import Project6 from "../../images/project6.png";
 
-import Hypesoft from "../images/hypesoft.png";
+import Hypesoft from "../../images/hypesoft.png";
 
-import { Box } from "../components/Box";
+import { Box } from "../../components/Box";
 
 export default function Work() {
   return (

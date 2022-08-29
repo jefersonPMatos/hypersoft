@@ -1,10 +1,11 @@
-import * as S from "../styles/info";
-import PC from "../images/pc.png";
-import { Button } from "../components/Button";
-
-import Arrow from "../images/arrow.png";
 import Image from "next/image";
-import { Box } from "../components/Box";
+import * as S from "./styles";
+
+import { Button } from "../../components/Button";
+import { Box } from "../../components/Box";
+
+import PC from "../../images/pc.png";
+import Arrow from "../../images/arrow.png";
 
 export default function Info() {
   return (

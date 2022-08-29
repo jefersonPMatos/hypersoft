@@ -1,15 +1,15 @@
-import * as S from "../styles/home";
+import * as S from "./styles";
 
-import { Box } from "../components/Box";
-import { Button } from "../components/Button";
-import { Navbar } from "../components/Navbar";
+import { Box } from "../../components/Box";
+import { Button } from "../../components/Button";
+import { Navbar } from "../../components/Navbar";
 
-import profile from "../images/photo.png";
+import profile from "../../images/photo.png";
 
-import Ball from "../images/ball.svg";
-import Be from "../images/be.svg";
-import Facebook from "../images/facebook.svg";
-import Twitter from "../images/twitter.svg";
+import Ball from "../../images/ball.svg";
+import Be from "../../images/be.svg";
+import Facebook from "../../images/facebook.svg";
+import Twitter from "../../images/twitter.svg";
 
 export default function Home() {
   return (

@@ -1,9 +1,9 @@
-import * as S from "../styles/services";
+import * as S from "./styles";
 
-import { Box } from "../components/Box";
-import { Card } from "../components/Card";
+import { Box } from "../../components/Box";
+import { Card } from "../../components/Card";
 
-import Code from "../images/code.png";
+import Code from "../../images/code.png";
 
 export default function Services() {
   return (
