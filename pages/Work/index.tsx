@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import * as S from "./styles";
+import * as S from "../../styles/work";
 
 import { Banner } from "../../components/Banner";
 import { Button } from "../../components/Button";

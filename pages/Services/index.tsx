@@ -1,4 +1,4 @@
-import * as S from "./styles";
+import * as S from "../../styles/Services";
 
 import { Box } from "../../components/Box";
 import { Card } from "../../components/Card";

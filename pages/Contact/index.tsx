@@ -2,7 +2,7 @@ import { useState } from "react";
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
 
-import * as S from "./styles";
+import * as S from "../../styles/Contact";
 
 import { Box } from "../../components/Box";
 

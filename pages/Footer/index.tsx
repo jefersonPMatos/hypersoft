@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import * as S from "./styles";
+import * as S from "../../styles/Footer";
 
 import Hypesoft from "../../images/hypersoft.png";
 import { Box } from "../../components/Box";

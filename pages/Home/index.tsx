@@ -1,4 +1,4 @@
-import * as S from "./styles";
+import * as S from "../../styles/Home";
 
 import { Box } from "../../components/Box";
 import { Button } from "../../components/Button";

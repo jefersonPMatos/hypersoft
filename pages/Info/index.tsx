@@ -1,5 +1,5 @@
 import Image from "next/image";
-import * as S from "./styles";
+import * as S from "../../styles/Info";
 
 import { Button } from "../../components/Button";
 import { Box } from "../../components/Box";
