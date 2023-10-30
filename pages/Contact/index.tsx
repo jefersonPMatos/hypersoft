@@ -22,17 +22,17 @@ export default function Contact() {
     if (commentId === 1) {
       return (
         <p>
-          “Foi o melhor aluno da turma. Se eu pudesse, eu mesmo contratava ele,
-          porque esse vai longe.”
+          "He was the best student in the class. If I could, I would hire myself
+          too, because this one is going far."
         </p>
       );
     } else if (commentId === 2) {
-      return <p>“O orgulho da família!”</p>;
+      return <p>"The pride of the family!"</p>;
     } else if (commentId === 3) {
       return (
         <p>
-          “Determinado, comprometido, grande marido. Mas sou suspeita pra falar.
-          Eu amo ele.”
+          "Determined, committed, great husband. But I'm suspicious to talk. I
+          love him."
         </p>
       );
     } else {
@@ -70,30 +70,30 @@ export default function Contact() {
           <S.Perfil onClick={() => setCommentId(1)}>
             <S.Photo />
             <span>
-              <h1>Gabriel P. Bernes</h1>
+              <h1>Bernes</h1>
               <p>Teacher at Digital house</p>
             </span>
           </S.Perfil>
           <S.Perfil onClick={() => setCommentId(2)}>
             <S.Photo />
             <span>
-              <h1>Rose Moreira</h1>
-              <p>Jeferson Mother</p>
+              <h1>Rose</h1>
+              <p>Jhon Dee Mother</p>
             </span>
           </S.Perfil>
           <S.Perfil onClick={() => setCommentId(3)}>
             <S.Photo />
             <span>
-              <h1>Gabrielle Gomes</h1>
-              <p>Jeferson Wife</p>
+              <h1>Gabrielle</h1>
+              <p>Jhon Dee Wife</p>
             </span>
           </S.Perfil>
 
           <S.Perfil onClick={() => setCommentId(4)}>
             <S.Photo />
             <span>
-              <h1>Hilnei Macêdo</h1>
-              <p>Jeferson Father</p>
+              <h1>Dave</h1>
+              <p>Jhon Dee Father</p>
             </span>
           </S.Perfil>
         </S.ProfilesWrapper>
@@ -140,15 +140,15 @@ export default function Contact() {
           <S.ContactInfo>
             <S.Row>
               <Image src={Map} width={60} height={60} alt="" />
-              <p>Campina Grande - PB</p>
+              <p>São Paulo - SP</p>
             </S.Row>
             <S.Row>
               <Image src={Mail} width={60} height={60} alt="" />
-              <p>jefersonpmatos@outlook.com</p>
+              <p>jhondeepmatos@outlook.com</p>
             </S.Row>
             <S.Row>
               <Image src={Phone} width={60} height={60} alt="" />
-              <p>+55 83 981668392</p>
+              <p>+55 11 981668392</p>
             </S.Row>
             <S.Row>
               <Image src={Phone} width={30} height={30} alt="" />

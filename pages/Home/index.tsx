@@ -25,12 +25,12 @@ export default function Home() {
         <S.Wrapper>
           <S.Personal>
             <h1>
-              Hello, i'm Jeferson, a<br /> Web developer FullStack.
+              Hello, i'm Jhon Dee, a<br /> Web developer FullStack.
             </h1>
           </S.Personal>
           <S.Description>
             <p>
-              My name is Jeferson and I enjoy creating things that live on the
+              My name is Jhon Dee and I enjoy creating things that live on the
               internet. My interest in web development started when I decided to
               try editing custom Blogspot themes — turns out hacking together a
               custom reblog button taught me a lot about HTML & CSS!
